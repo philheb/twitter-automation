@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* box-sizing: border-box; */
-  background: url("https://source.unsplash.com/KCqgAjdFMzU/1920x1080") no-repeat 0 0;
+  background: url("https://source.unsplash.com/C8VWyZhcIIU/1920x1080") no-repeat -500px 0;
 }
 
 code {

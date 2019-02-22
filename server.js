@@ -18,7 +18,7 @@ app.post("/api/post", (req, res) => {
   const params = {
     q: `#${req.body.post}`,
     count: req.body.count,
-    result_type: "mixed", // recent, popular or mixed
+    result_type: req.body.type, // recent, popular or mixed
     lang: "en"
   };
 
@@ -44,7 +44,6 @@ app.post("/api/post", (req, res) => {
     } else {
       console.log(err);
     }
-    console.log(response);
   });
 });
 
